@@ -1,2 +1,9 @@
 # mov-gr1-ProyectoIB-Tarapues-Sanchez
-Oriyecto IB
+Proyecto IB
+
+Título: Finovate
+
+Integrantes:
+
+- Hernán Sánchez
+- Galo Tarapués
