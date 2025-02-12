@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Nombre de la cuenta -->
+    <EditText
+        android:id="@+id/etNombreCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la cuenta"
+        android:padding="8dp"
+        android:inputType="text" />
+
+    <!-- Saldo inicial de la cuenta -->
+    <EditText
+        android:id="@+id/etSaldoCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saldo inicial"
+        android:padding="8dp"
+        android:inputType="numberDecimal" />
+
+    <!-- Botón para guardar la cuenta -->
+    <Button
+        android:id="@+id/btnGuardarCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cuenta"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

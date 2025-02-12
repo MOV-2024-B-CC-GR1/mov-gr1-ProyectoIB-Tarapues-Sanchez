@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimario">#4A90E2</color> <!-- Azul Principal -->
+    <color name="colorSecundario">#3F78B5</color> <!-- Azul Intermedio -->
+    <color name="colorFondo">#E6F1FA</color> <!-- Fondo Blanco-Azul Claro -->
+    <!-- <color name="colorTexto">#2C3E50</color>  Gris oscuro para el texto -->
+    <color name="colorBoton">#3498DB</color> <!-- Azul para botones -->
+    <color name="colorBotonPresionado">#2980B9</color> <!-- Azul más oscuro para botones presionados -->
+    <!--  <color name="colorResumen">#7FB3D5</color> Azul más suave para el resumen -->
+    <color name="colorSombra">#B0C4DE</color> <!-- Sombra suave -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#1565C0</color>
+    <color name="accent">#FF4081</color>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="colorTexto">#FFFFFF</color>
+    <color name="colorResumen">#33000000</color>
+
+
+
+</resources>
+
+

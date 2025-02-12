@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity">
+
+    <!-- Saldo actual -->
+    <TextView
+        android:id="@+id/tvSaldoActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saldo total: $0.00"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@color/colorTexto"
+        android:background="@drawable/border"/>
+
+    <!-- Resumen de ingresos y gastos -->
+<TextView
+android:id="@+id/tvResumenFinanciero"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Resumen: Ingresos $0.00 | Gastos $0.00"
+android:textSize="16sp"
+android:gravity="center"
+android:padding="8dp"
+android:textColor="@color/colorTexto"
+android:background="@color/colorResumen"/>
+
+    <!-- Botón para gestionar cuentas -->
+    <Button
+        android:id="@+id/btnGestionCuentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Cuentas"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Botón para gestionar transacciones -->
+    <Button
+        android:id="@+id/btnGestionTransacciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transacciones"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_border"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Botón para gestionar metas financieras -->
+    <Button
+        android:id="@+id/btnGestionMetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:padding="10dp"
+        android:text="Metas Financieras"
+        android:textColor="@android:color/white" />
+
+    <!-- Cuentas -->
+</LinearLayout>
