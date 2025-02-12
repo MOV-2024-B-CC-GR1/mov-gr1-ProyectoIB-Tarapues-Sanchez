@@ -1,4 +1,4 @@
-# mov-gr1-ProyectoIB-Tarapues-Sanchez
+# mov-gr1-ProyectoIIB-Tarapues-Sanchez
 Proyecto IB
 
 Título: Finovate
